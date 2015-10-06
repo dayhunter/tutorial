@@ -1,0 +1,141 @@
+https://172.19.209.31/par
+
+request admin role to deploy at worklight development server for mobile banking project from 15 July 2015 to 17 July 2015
+
+Session user
+mbwasdev
+eW%erQ@3
+
+WAS/WL user
+
+TBKDCAD03
+
+wasmobadm / G+e2kTQP
+
+e-DMZ user
+ibm84861/ibm84861Tb*3
+ibm10084/ibm10084Tb*2
+
+
+Deployment Workstation
+ibm84861/M0b1lebank2
+
+
+TBLEAPPSRTDTU  	: 	10.190.134.20  	: 	WL Server
+- mbwasdev	: OS user
+- wasmobadm	: WAS/WL user
+TBLEAPAPRTDTU	:	10.190.134.18	:	Services Server
+
+mkdir -m 755 foldername (7 = rwx, 5 = r_x)
+chmod 755 file/folder name
+
+
+/Mobile/usr/IBM/JavaAdapter/dev/appconfig
+/Mobile/usr/IBM/JavaAdapter/dev/bin
+/Mobile/usr/IBM/JavaAdapter/dev/log
+
+/Mobile/images/dev/Profile
+
+/Mobile/usr/IBM/SharedLib/dev/Sybase
+/Mobile/usr/IBM/SharedLib/dev/apache-log4j-2.3
+/Mobile/usr/IBM/SharedLib/dev/axis2-1.6.2
+/Mobile/usr/IBM/SharedLib/dev/commons-configurations-1.10
+/Mobile/usr/IBM/SharedLib/dev/gson-2.3.1
+
+gu#5IHaw
+
+https://10.190.134.20:29043/ibm/console/logon.jsp
+
+-Dlog4j.configurationFile=file:///Mobile/usr/IBM/JavaAdapter/dev/appconfig/log4j2.xml
+
+
+http://10.190.134.20:29080/mbanking/dev/invoke?adapter=TestAdapter&procedure=testMethod&parameters=[]
+
+/Mobile/was_profiles/dev/Custom02/installedApps/wlappserver01Cell02/ThanachartBank_war.ear/ThanachartBank.war/WEB-INF/classes
+/Mobile/was_profiles/dev/Custom02/installedApps/wlappserver01Cell02/ThanachartBank_war.ear/ThanachartBank.war/WEB-INF/classes/conf/authenticationConfig.xml
+
+
+${TBANK_SHARED_LIB}/dev/axis2-1.6.2/activation-1.1.jar
+${TBANK_SHARED_LIB}/dev/axis2-1.6.2/activation-1.1.jar
+
+
+                <fileset dir="C:\TbankMobile\3rdPartyLib\apache-log4j-2.3-bin" includes="*.jar"/>
+                <fileset dir="C:\TbankMobile\3rdPartyLib\gson-2.3.1" includes="gson-2.3.1.jar"/>
+                <fileset dir="C:\TbankMobile\3rdPartyLib\commons-configuration-1.10" includes="commons-collections-3.2.1.jar, commons-configuration-1.10.jar, commons-lang-2.6.jar, commons-logging-1.1.3.jar"/>
+                <fileset dir="C:\TbankMobile\3rdPartyLib\axis2-1.6.2" includes="*.jar"/>                
+                <fileset dir="C:\workspace_WL1\TbankMobileJavaAdapters" includes="TbankMobileJavaAdaptersLib.jar"/>
+                <fileset dir="C:\workspace_WL1\TbankMobileJavaFramework" includes="TbankMobileJavaFrameworkLib.jar"/>
+
+
+/Mobile/was_logs/dev/Worklight_Server1/SystemOut.log
+
+----------------
+
+                <fileset dir="C:\TbankMobile\3rdPartyLib\apache-log4j-2.3-bin" includes="*.jar"/>
+                <fileset dir="C:\TbankMobile\3rdPartyLib\gson-2.3.1" includes="gson-2.3.1.jar"/>
+                <fileset dir="C:\TbankMobile\3rdPartyLib\commons-configuration-1.10" includes="commons-collections-3.2.1.jar, commons-configuration-1.10.jar, commons-lang-2.6.jar, commons-logging-1.1.3.jar"/>
+                <fileset dir="C:\workspace_WL1\TbankMobileJavaAdapters" includes="TbankMobileJavaAdaptersLib.jar"/>
+                <fileset dir="C:\workspace_WL1\TbankMobileJavaFramework" includes="TbankMobileJavaFrameworkLib.jar"/> 
+                <fileset dir="C:\TbankMobile\3rdPartyLib\axis2-1.6.2" includes="*.jar"/>     
+
+SALESForce:::->>>
+https://test.salesforce.com/index.jsp
+username: matib@isd.th.ibm.com.mobsit
+password:P@ssw0rd
+
+
+
+/Mobile/usr/IBM/JavaAdapter/config 
+
+
+/Mobile/usr/IBM/JavaAdapter/dev/appconfig/TmobileJavaAdapter.xml   > url/TmobileConfigDev
+/Mobile/usr/IBM/JavaAdapter/dev2/appconfig/TmobileJavaAdapter.xml   > url/TmobileConfigdev2
+
+http://10.190.134.20:29080/mbankingsit/invoke?adapter=environmetSettingAdapter&procedure=setingEnvironment&parameters=["sit2"] 
+
+
+#Merchant Service
+
+- Share Lib
+/Mobile/usr/IBM/SharedLib/dev/TbankMerchantPaymentBase
+
+- Logs file.
+#App logs
+/Mobile/usr/IBM/MerchantServices/dev/log
+#Was Logs
+/Mobile/was_logs/dev/ServiceMERCHANT/ServiceMERCHANT_Server1
+
+#Context Root
+
+/TbankMerchantPaymentServices
+
+#Share Lib Ref
+- META-INF/application.xml <URI>
+TbankMerchantService-log4j-2.3
+CustomsMerchantService
+TbankJavaAdapter-commons-config-1.10
+
+# Deployment Decs.
+<application id="Application_ID" version="5" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/application_5.xsd" > 
+ <display-name> TbankMerchantPaymentServices_war</display-name> 
+ <module> 
+ <web> 
+ <web-uri> TbankMerchantPaymentServices.war</web-uri> 
+ <context-root> /TbankMerchantPaymentServices</context-root> 
+ </web> 
+ </module> 
+ </application> 
+
+Virtual hosts 
+ # default host
+/Mobile/was_logs/dev/Worklight_Server1/SystemOut.log
+
+cds.paymentAccountToGL2(29980011300,11,444,7896700438,22,13,A001,5101,0212562712800,20151001MB00003,Tbank Hire Purchase,,I, 0)
+
+/Mobile/usr/IBM/JavaAdapter/svn/TbankMobile
+
+
+
+https://tb58pmofl1132p:8443/svn/TbankMobile
+
+https://tb58pmofl1132p:8443/svn/TestSVN
